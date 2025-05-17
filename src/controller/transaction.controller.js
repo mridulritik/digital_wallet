@@ -3,7 +3,7 @@ import { Transaction } from "../models/transaction.model.js";
 import { User } from "../models/user.model.js"
 import jwt from "jsonwebtoken"
 
-
+//account detail controller is in progress
 const accountDetail = async (req, res) => {
     console.log(`accoutdetail controller`)
 }
@@ -80,6 +80,7 @@ const transferAmount = async (req, res) => {
         .json({ success: transfer })
 }
 
+//account history controller is in progress
 const accountHistory = async (req, res) => {
     console.log(`accounthistory controller`);
 }
