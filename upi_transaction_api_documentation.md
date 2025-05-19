@@ -3,7 +3,7 @@
 
 ## 🧾 Base URL
 ```
-http://localhost:2929/api/v1
+https://digital-wallet-e49p.onrender.com/api/v1
 ```
 
 ---
