@@ -144,10 +144,3 @@ Authorization: Bearer <JWT_TOKEN>
   ]
 }
 ```
-
----
-
-## ✅ Notes
-- Include the JWT token (received after login) in the `Authorization` header for protected routes.
-- Use consistent UPI format for `userId` or `receiver_userId` (e.g., `username@upi`).
-- Handle errors gracefully on the client side using status codes and message responses.
